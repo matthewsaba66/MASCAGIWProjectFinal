@@ -1,11 +1,10 @@
 map_reduce_job3/SameSentences$Reducer1$1.class
-map_reduce_job4/TagPercentage.class
 model/Tab1.class
 map_reduce_job3/SameSentences$Reducer1.class
 map_reduce_job3/SameSentences$Mapper1.class
 map_reduce_job2/MostLinkedURLs$Reducer1$Pair.class
+map_reduce_job4/TagOccurrence.class
 warc_parser/WarcRecord.class
-map_reduce_job4/TagPercentage$Reducer1.class
 map_reduce_job3/SameSentences.class
 tag_mining/MyHTMLParser.class
 map_reduce_job2/MostLinkedURLs$Reducer1$1.class
@@ -18,11 +17,12 @@ tag_mining/MainClass.class
 model/Tab3.class
 warc_parser/WarcHTMLResponseRecord.class
 warc_parser/WarcRecord$WarcHeader.class
+map_reduce_job4/TagOccurrence$Reducer1.class
 warc_parser/ReadWarcSample.class
 map_reduce_job1/AvgURLsPerPage$Reducer2.class
 model/Tab2.class
 map_reduce_job1/AvgURLsPerPage$Reducer1.class
-map_reduce_job4/TagPercentage$Mapper1.class
+map_reduce_job4/TagOccurrence$Mapper1.class
 map_reduce_job2/MostLinkedURLs.class
 tag_mining/SentenceFilter.class
 map_reduce_job3/SameSentences$Reducer1$Pair.class

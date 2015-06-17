@@ -14,11 +14,11 @@ public class MainClass {
 
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		final File folder = new File("/home/matteo/index/");
+		final File folder = new File("index/");
 		List<String> names = listFilesForFolder(folder);
 		int y = 0;
 		for(String file : names){
-			analyzeFile("/home/matteo/index/"+file);
+			analyzeFile("index/"+file);
 			System.out.println("analizzo file: " + file);
 			System.out.println("numero: " + y);
 			y++;

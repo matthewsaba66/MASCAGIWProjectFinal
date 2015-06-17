@@ -25,7 +25,7 @@ public class ReadWarcSample {
 			// see if it's a response record
 			if (thisWarcRecord.getHeaderRecordType().equals("response")) {
 				
-				File file = new File("/home/matteo/index/" + con + "-extracted");
+				File file = new File("index/" + con + "-extracted");
 
 				// it is - create a WarcHTML record
 				WarcHTMLResponseRecord htmlRecord=new WarcHTMLResponseRecord(thisWarcRecord);

@@ -89,13 +89,11 @@ public class SameSentences extends Configured implements Tool {
 		protected void map(LongWritable key, Text value, 
 				Context context) throws IOException, InterruptedException {
 			String line = value.toString();
-			String first_line = "TREC-ID\tFRASE-ESTRATTA-SENZA-TAG\n";
-			line = line.replaceAll(first_line, "");
 
 			String[] tokenizer = line.split("\t");
 			String sentence = "";
 			for (int i = 1; i < tokenizer.length; i++ ) {
-				sentence = sentence.concat(tokenizer[i]);
+				sentence = sentence.concat(tokenizer[i] + " ");
 			}
 
 			word.set(sentence);

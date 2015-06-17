@@ -22,9 +22,9 @@ public class TextNormalizer {
 
 	
 	static void visualizeTables() throws IOException {
-		writeToFile1(tab1List, "/home/matteo/Scrivania/output/table1.tsv");
-		writeToFile2(tab2List, "/home/matteo/Scrivania/output/table2.tsv");
-		writeToFile3(tab3List, "/home/matteo/Scrivania/output/table3.tsv");
+		writeToFile1(tab1List, "output/table1.tsv");
+		writeToFile2(tab2List, "output/table2.tsv");
+		writeToFile3(tab3List, "output/table3.tsv");
 //		for (Tab1 t : tab1List){
 //			System.out.println(t.toString());
 //			//writeToFile(tab1List, "/home/matteo/Scrivania/output/table1");

@@ -91,8 +91,7 @@ public class MostLinkedURLs extends Configured implements Tool {
 		protected void map(LongWritable key, Text value, 
 				Context context) throws IOException, InterruptedException {
 			String line = value.toString();
-			String first_line = "TREC-ID\tSTRINGA\tTAG\n";
-			line = line.replaceAll(first_line, "");
+			
 
 			String[] tokenizer = line.split("\t");
 
